@@ -1,0 +1,176 @@
+﻿div#topo{
+	width:950px;
+	height:160px;
+	margin:0 auto;
+	margin-top:35px;
+}
+
+div#logo{
+	width:100px;
+	height:100px;
+	margin-top:30px;
+	margin-left: 30px;
+	float:left;
+}
+
+div#titulo{
+	width:700px;
+	height:100px;
+	margin-top:30px;
+	float:right;
+}
+
+div#separador{
+	background:#e1331d;
+	width:950px;
+	height:45px;
+	margin:0 auto;
+}
+
+div#separador2{
+	background:blue;
+	width:950px;
+	height:2px;
+	margin:0 auto;
+}
+
+div#separador a{
+	color:#ffff;
+	font-family:Verdana;
+	font-size:12px;
+	text-decoration:none;
+	margin-top:15px;
+	display:block;
+	float:left;
+	margin-left:40px;
+}
+
+div#separador a:hover{
+	color:#fcc24f;
+}
+	
+div#descricao{
+	width:900px;
+	font-family:Verdana;
+	font-size:18px;
+	margin:0 auto;
+	margin-top:50px;
+}
+
+div#loja{
+	width:950px;
+	margin:0 auto;
+	overflow: auto;
+	margin-top:50px;
+}
+
+div#loja h1{
+	text-align:right;
+	font-family:Verdana;
+	font-style:bold;
+	font-size:40px;
+	color:#393939;
+}
+
+div#container{
+	width:950px;
+	margin:0 auto;
+	margin-top:60px;
+	margin-bottom:50px;
+}
+
+div.chamada{
+	width:166px;
+	height:300px;
+	display: inline-block;
+	margin-top:30px;
+	margin-left:60px;
+	text-align:center;
+	transition: transform .2s;
+}
+
+div.chamada h1{
+	color:#393939;
+	font-family:Arial;
+	font-style:bold;
+	font-size:18px;
+}
+
+div.chamada p{
+	text-align:left;
+	color:#393939;
+	font-family:Arial;
+	font-size:18px;
+}
+
+div.chamada:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+div#desc {
+	text-align:left;
+	color:#393939;
+	font-family: Verdana;
+	float: left;
+	width: 500px;
+	margin-left: 50px;
+}
+
+.img-produto {
+	float: left;
+}
+
+div#fim{
+	background:#e1331d;
+	width:950px;
+	height:45px;
+	margin:0 auto;
+	margin-top:50px;
+}
+div#fim a{
+	color:#ffff;
+	font-family:Verdana;
+	font-size:12px;
+	text-decoration:none;
+	margin-top:15px;
+	display:block;
+	float:left;
+	margin-left:40px;
+}
+div#fim a:hover{
+	color:#fcc24f;
+}
+div#fim p{
+	color:#ffff;
+	font-family:Verdana;
+	font-size:12px;
+	text-decoration:none;
+	margin-top:15px;
+	display:block;
+	float:RIGHT;
+	margin-RIGHT:40px;
+}
+
+button {
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 6px;
+	border: none;
+	background: #134395;
+	color: #fcc24f;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: all .3s ease-out;
+}
+
+button:hover {
+	background: #385c9a;
+}
+
+input[type='text'], input[type='number']{
+	padding: 10px;
+	font-size: 14px;
+	width: 300px;
+}
